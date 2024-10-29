@@ -116,7 +116,7 @@ class Slider:
             self.value = (self.circle_rect.x - self.position[0] + 10) / self.width  # Normaliza el valor entre 0 y 1
 
     def get_value(self):
-        return self.value  # Devuelve el valor actual del slider
+        return self.value  # Devuelve el valor actual del Slider
 
     def set_volume(self, volume):
         # Establece el volumen del sonido (entre 0 y 1)
